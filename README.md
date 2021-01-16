@@ -23,7 +23,6 @@ This portfolio is a personal portfolio. Currently only I am working on this proj
 And thank you for taking your time to look through my portfolio!
 If you have any comments, questions or suggest feel free to contact me!
 
+<sub><sup>Repo was created on Jan 14 2021</sub></sup>
 
-Repo was created on Jan 14 2021
-
-Week 5 of learning coding!
+<sub><sup>Week 5 of learning coding!</sub></sup>
