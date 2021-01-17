@@ -5,3 +5,7 @@ body {
 .bg-progress {
     background-color: violet;
 }
+
+.carousel-caption {
+    top: 70%;
+}
