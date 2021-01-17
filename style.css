@@ -6,6 +6,10 @@ body {
     background-color: violet;
 }
 
-.carousel-caption {
-    top: 70%;
+.carousel-caption1 {
+    top: 80%;
+}
+
+.carousel-caption2 {
+    top: 85%;
 }
