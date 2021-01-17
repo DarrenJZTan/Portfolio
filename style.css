@@ -13,3 +13,7 @@ body {
 .carousel-caption2 {
     top: 85%;
 }
+
+.bg-lightgreen {
+    background-color:rgba(	89, 205, 144);
+}
