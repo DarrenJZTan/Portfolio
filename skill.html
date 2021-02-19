@@ -5,7 +5,6 @@
     <title>Darren's Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -96,29 +95,45 @@
 
         <!--My it skills use cards-->
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top" src="https://www.codecademy.com/webpack/b448a28e23c2912785c2ef6d9e37d4d5.svg" alt="HTML &amp CSS">
-                <div class="card-body bg-primary">
-                  <h5 class="card-title">HTML &amp CSS</h5>
+            <div class="carousel row w-100" id="carousel-container">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.codecademy.com/webpack/b448a28e23c2912785c2ef6d9e37d4d5.svg" alt="HTML &amp CSS">
+                        <div class="card-body bg-warning">
+                        <h5 class="card-title">HTML &amp CSS</h5>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top" src="https://www.codecademy.com/webpack/fbac2e163a79bceb56b5dbabe6c74945.png" alt="Bootstrap">
-                <div class="card-body bg-success">
-                  <h5 class="card-title">Bootstrap</h5>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.codecademy.com/webpack/fbac2e163a79bceb56b5dbabe6c74945.png" alt="Bootstrap">
+                        <div class="card-body bg-success">
+                        <h5 class="card-title">Bootstrap</h5>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top" src="https://www.codecademy.com/webpack/2dfdfb0e7b8983eaa8eb10736b52cd63.svg" alt="Git &amp Github">
-                <div class="card-body bg-danger">
-                  <h5 class="card-title">Git &amp Github</h5>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.codecademy.com/webpack/2dfdfb0e7b8983eaa8eb10736b52cd63.svg" alt="Git &amp Github">
+                        <div class="card-body bg-danger">
+                        <h5 class="card-title">Git &amp Github</h5>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.codecademy.com/webpack/dc87f082aeae7851a58477cfda3d6480.svg" alt="Javascript">
+                        <div class="card-body bg-info">
+                        <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" role="button" data-slide="prev" id="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next w-auto" role="button" data-slide="next" id="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                </a>                
             </div>
         </div>
     </div>
@@ -142,6 +157,9 @@
         <div class="text-secondary"> Copyright © 2021</div>
         <br>
     </footer>
-
+    
+<!--Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </body>
 </html>

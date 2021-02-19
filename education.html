@@ -5,14 +5,7 @@
     <title>Darren's Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link href="style.css" rel="stylesheet">
-    <style>
-        .btn:hover {
-            opacity: 0.8 !important;
-        }
-        
-    </style>
+    <link href="styleForEdu.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,33 +37,34 @@
                 </div>
                 <hr>
                 <br>
-                <table class="table table-borderless  text-white">
+                <table class="table table-borderless  text-white" id="container-table">
                     <tbody>
                     <tr>
                         <th scope="row">
                             <a class="btn" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                            <h3 class="text-light">2020-2021</h3>
+                            <h3 class="text-light clicking-object">2020-2021</h3>
                         </a></th>
                         <td>
                             <a class="btn" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                                <h3 class="text-light">Junior Web Developer Program &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" style="object-fit: cover; width: 20px; height: auto;"></h3>
+                                <h3 class="text-light clicking-object">Junior Web Developer Program &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" class="arrow-down"></h3>
                             </a>            
                         
-                        <div class="collapse" id="collapse1">
-                            <div class="card-body bg-dark">
-                                - Generation Australia <br>
-                                - Sydney & Melbourne (Online)
+                            <div class="collapse" id="collapse1">
+                                <div class="card-body bg-dark">
+                                    - Generation Australia <br>
+                                    - Sydney & Melbourne (Online)
+                                </div>
                             </div>
-                        </div></td>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">
                             <a class="btn" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                            <h3 class="text-light">2020</h3>
+                            <h3 class="text-light clicking-object">2020</h3>
                         </a></th>
                         <td>
                             <a class="btn" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                                <h3 class="text-light">Employability Skills Training (PaTH) Block 2 &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" style="object-fit: cover; width: 20px; height: auto;"></h3>
+                                <h3 class="text-light clicking-object">Employability Skills Training (PaTH) Block 2 &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" class="arrow-down"></h3>
                             </a>            
                         
                         <div class="collapse" id="collapse2">
@@ -83,11 +77,11 @@
                     <tr>
                         <th scope="row">
                             <a class="btn" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
-                            <h3 class="text-light">2015-2018</h3>
+                            <h3 class="text-light clicking-object">2015-2018</h3>
                         </a></th>
                         <td>
                             <a class="btn" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
-                                <h3 class="text-light">Bachelor of Science &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" style="object-fit: cover; width: 20px; height: auto;"></h3>
+                                <h3 class="text-light clicking-object">Bachelor of Science &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" class="arrow-down"></h3>
                             </a>            
                         
                         <div class="collapse" id="collapse3">
@@ -99,11 +93,11 @@
                     <tr>
                         <th scope="row">
                             <a class="btn" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">
-                            <h3 class="text-light">2014</h3>
+                            <h3 class="text-light clicking-object">2014</h3>
                         </a></th>
                         <td>
                             <a class="btn" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">
-                                <h3 class="text-light">Victorian Certificate of Education &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" style="object-fit: cover; width: 20px; height: auto;"></h3>
+                                <h3 class="text-light clicking-object">Victorian Certificate of Education &nbsp;<img src="https://raw.githubusercontent.com/DarrenJZTan/Portfolio/main/images/8317101_black-right-arrow-collapse-arrow-icon-white-png.png" class="arrow-down"></h3>
                             </a>            
                         
                         <div class="collapse" id="collapse4">
@@ -140,8 +134,9 @@
         <br>
     </footer>
     
-    
-    
+<!--Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="education.js"></script>
     
     
 </body>
