@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", typeWriter1);
 
 let i = 0
 let txt = ' 04 6984 5480'
-let speed = 100
+let speed = 70
 
 function typeWriter() {
   if (i < txt.length) {

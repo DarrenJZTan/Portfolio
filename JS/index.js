@@ -21,4 +21,3 @@ const rotateRight = () => {
 
 next.addEventListener('click', rotateRight)
 prev.addEventListener('click', rotateLeft)
-
