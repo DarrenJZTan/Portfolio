@@ -32,4 +32,5 @@ const rotateIcon = (event) => {
 }
 
 
+
 document.querySelector('#container-table').addEventListener('click', rotateIcon)
