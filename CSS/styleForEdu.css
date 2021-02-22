@@ -1,5 +1,6 @@
 body {
-  background-color: #212529
+  background-color: #212529;
+  animation: fadeInFromNone 500ms ease-in-out;
 }
 
 .bg-container {
@@ -36,4 +37,15 @@ body {
   height: auto;
   transform: rotate(180deg);
   transition: transform 0.25s linear;
+}
+
+@keyframes fadeInFromNone { 
+  0% {
+      display: none;
+      opacity: 0;
+  }
+  1% {
+      display: block;
+      opacity: 0;
+  }
 }
