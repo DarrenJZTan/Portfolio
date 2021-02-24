@@ -25,6 +25,8 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+  phone.classList.remove("cursor")
+  // phone.style.removeProperty('cursor');
 }
 
 phone.addEventListener('click', typeWriter)
