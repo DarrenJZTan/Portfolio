@@ -8,8 +8,7 @@ console.log(carouselRow)
 const rotateLeft = () => {
   cardsList.splice(0, 0, cardsList.splice(4, 1)[0])
   for(let i = 0; i < cardsList.length; ++i) {
-    carouselRow.appendChild(cardsList[i]);
-  }
+    carouselRow.appendChild(cardsList[i]);op
 }
 
 const rotateRight = () => {
